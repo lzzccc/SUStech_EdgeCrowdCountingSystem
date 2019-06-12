@@ -25,14 +25,14 @@ TOOLCHAIN ?= mw
 #
 # root dir of embARC
 #
-EMBARC_ROOT = ../../../..
+EMBARC_ROOT = ../../../../..
 # Selected OS
 OS_SEL ?= freertos
 
 MID_SEL = common fatfs
 
 # application source dirs
-APPL_CSRC_DIR = ./scr ./scr/wifi ./scr/emsk_sdcard
+APPL_CSRC_DIR = . ./wifi ./emsk_sdcard
 APPL_ASMSRC_DIR = .
 
 # application include dirs

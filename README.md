@@ -1,1 +1,0 @@
-# SUStech_EdgeCrowdCountingSystem
